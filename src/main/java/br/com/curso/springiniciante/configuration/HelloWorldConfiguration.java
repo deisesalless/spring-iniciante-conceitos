@@ -18,7 +18,6 @@ public class HelloWorldConfiguration {
                         .description("Pessoa API documentação")
                         .version("v1.0.0")
                         .license(new License().name("Apache 2.0").url("http://springdoc.org")))
-                .addSecurityItem(new SecurityRequirement().addList(securitySchemeName))
-                ;
+                .addSecurityItem(new SecurityRequirement().addList(securitySchemeName));
     }
 }
